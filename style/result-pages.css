@@ -1,0 +1,14 @@
+.result-body{
+    ma-top: 100px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff url("https://img.freepik.com/free-photo/abstract-blur-hotel-interior_1203-8514.jpg") no-repeat right top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+

@@ -1,0 +1,171 @@
+
+
+h1,h5,h2{
+    text-align: center;
+}
+
+.cont_1{
+    margin-top: 7%;
+
+}
+
+.H1{
+    font-size: 50px;
+    
+}
+
+.sub_cont_2{
+    width: 30%;
+    margin-top: 4% ;
+    background-color:rgb(0, 3, 27);
+    min-width: 300px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 80px;
+    box-shadow: 5px 10px 15px #888888;
+}
+
+.sub_cont_1{
+    padding-right: 20px;
+}
+
+.sub_large_container1{
+    display: flex;
+
+}
+
+.H2{
+    border-top-right-radius: 50px;
+    padding: 20px 0;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.HR1{
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.form1{
+    padding: 7%;
+    justify-content: center;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+  
+}
+
+#request{
+    width: 150px;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: lightblue;
+    border: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.Req{
+    text-decoration: none;
+}
+
+select{
+    padding: 7px;
+}
+
+#clear:hover,#request:hover{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+#price{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.example-img{
+    margin-top: 12%;
+    margin-left: 10%;
+
+}
+
+.large_container2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, rgb(0, 3, 27), transparent ), url("../assets/apartment.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero_text {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 100px 0 0 130px;
+    background-color: rgba(0, 3, 27, 0);
+}
+
+#btn5 {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 130px;
+
+}
+
+#btn5:hover{
+    background-color: rgb(0, 162, 255);
+}
+
+.bttn1{
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgba(0, 3, 27);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+
+.bttn1:hover{
+    background-color: #1fb0ff;
+    color: black;
+    font-weight: 500;
+}
+
+.text1{
+    width: 75%;
+    text-align: center;
+    line-height: 23px;
+}
+
+.scrolltop{
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+    padding: 10px 15px;
+    background-color: rgba(0, 3, 27);
+    color:rgb(255, 255, 255);
+    border-radius: 8px;
+    border-radius: 1.5px solid rgb(95, 129, 160);
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrolltop:hover{
+    color: rgba(0, 3, 27);
+    background-color: cadetblue;
+}

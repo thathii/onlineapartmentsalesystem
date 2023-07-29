@@ -1,0 +1,88 @@
+body{
+    background: #ffffff url("https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg") no-repeat right top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.login-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px ;
+    background-color: #f2f2f2;
+    margin-top: 6%;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .form-input{
+      width: 100%!important;
+  }
+  
+  .form-style {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #0061e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+ .p1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+ }
+
+ .p2{
+  color: #c51111;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: small;
+ }
+
+  .signup-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px ;
+    background-color: #f2f2f2;
+    margin-top: 6%;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+.checkbox{
+    text-align: left;
+}
+
+.button1[type="submit"] {
+    padding: 10px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .input-box {
+    flex: 1;
+    padding: 6px;
+  }

@@ -1,0 +1,80 @@
+
+.search-bar{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+    /*border: 1px solid red;*/
+    width: 100%;
+}
+
+.search-input{
+    width: 400px;!important;
+}
+.result-main-outer{
+    margin-top: -20px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.result-filter{
+
+    margin: 0;
+}
+.result-list{
+    background: #ffffff url("https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?cs=srgb&dl=pexels-chris-schippers-421927.jpg&fm=jpg") no-repeat right top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.filter-buttons{
+    width: 100%;
+    padding: 30px 20px;
+}
+.filter-btn{
+    margin: 10px 0;
+    width: 100%;
+}
+.apartment-card{
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: #eeeeee;
+    padding: 15px 20px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+
+}
+.apartment-card:hover{
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 20px 30px;
+    transition: 0.2s;
+}
+.apartment-img{
+    width:270px ;
+}
+.discount{
+    font-weight: bold;
+    font-size: 25px;
+}
+.actual-price{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    -webkit-text-decoration-line: line-through; /* Safari */
+    text-decoration-line: line-through;
+}
+.card-right{
+    border-left: 1px solid #b6b6b6;
+    padding: 10px 20px;
+}
+.apartment-id-class{
+    display: none;
+}
+.overflow-auto::-webkit-scrollbar {
+    display: none;!important;
+}

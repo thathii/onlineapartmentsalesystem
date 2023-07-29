@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+th{
+    border-radius: 50px;
+}
+
+td{
+    text-align: center;
+    padding: 0;
+    width: 0;
+}
+
+table{
+    margin-top: 100px;
+    width: 70%;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 20px 30px rgba(18, 18, 18, 0.7);
+    background-color: rgba(245, 245, 245, 0.7);
+
+}
+
+thead{
+    background-color: rgb(0, 10, 51);
+    overflow: hidden;
+
+}
+
+.text-light{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.btnUpdate{
+    background-color: rgb(255, 213, 0);
+    border: 2px solid rgb(255, 213, 0);
+    padding: 8px;
+    margin:0;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+
+.btnUpdate:hover{
+    border: 2px solid black;
+}
+
+.btnDelete{
+    margin:0;
+    background-color: rgb(255, 63, 63);
+    border: 2px solid rgb(255, 63, 63);
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+
+.btnDelete:hover{
+    border: 2px solid black;
+}
+
+
+body{
+    background-image: url("photo/apartment.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: top center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+td{
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+h1{/*leave a review*/
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 70px ;
+    color: rgb(0, 10, 51);
+}
+
+.btn0{
+    box-shadow: 0 0 1rem #86e673;
+    background-color: #86e673;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45%;
+    color: white;
+    font-weight: bold;
+}
+
+.btn0:hover{
+    box-shadow: 0 0 1rem grey;
+    background-color: grey;
+    background-color: grey;
+    font-weight: bold;
+}
